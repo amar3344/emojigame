@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.nav-container {
+  height: 50px;
+  background-color: #9796f0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  margin: 0% auto;
+}
+
+.nav-container div {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container div h3 {
+  color: #fff;
+}
+
+.nav-container div p {
+  color: #fff;
+  padding: 0px 10px;
+}
+
+.score-cont {
+  display: flex;
+  justify-content: space-evenly;
+}
