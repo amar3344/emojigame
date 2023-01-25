@@ -39,11 +39,7 @@ const EmojiGame = props => {
         <h4>
           {score}/{len}
         </h4>
-        <button
-          type="button"
-          className="play-again-button"
-          onClick={gettingBackToGame}
-        >
+        <button type="button" className="play-again-button">
           play Again
         </button>
       </div>
@@ -66,7 +62,7 @@ const EmojiGame = props => {
         <button
           type="button"
           className="play-again-button"
-          onClick={gettingBackToGame}
+          //   onClick={gettingBackToGame}
         >
           play Again
         </button>

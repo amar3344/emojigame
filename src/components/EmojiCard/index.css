@@ -10,5 +10,10 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+}
+
+.image-card button {
+  border: none;
+  background-color: transparent;
   cursor: pointer;
 }
